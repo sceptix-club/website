@@ -1,4 +1,3 @@
-import { JetBrains_Mono } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -12,6 +11,9 @@ const config: Config = {
       fontFamily: {
         jetbrains: ["JetBrains Mono", "monospace"],
         inter: ["Inter", "sans-serif"],
+        zilla: ["Zilla Slab", "serif"],
+        fira_code: ["Fira Code", "monospace"],
+        fira_sans: ["Fira Sans", "sans-serif"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
