@@ -40,7 +40,7 @@ export const members = [
   {
     id: 6,
     github_username: "JoshuaAlbuquerque",
-    name: null,
+    name: "Joshua Albuquerque",
     role: "Owner",
     quote:
       "In order to understand recursion, one must first understand recursion.",
@@ -55,7 +55,7 @@ export const members = [
   {
     id: 8,
     github_username: "lawrencedsz9",
-    name: null,
+    name: "Lawrence Robert D Souza",
     role: "Member",
     quote: "The computer was born to solve problems that did not exist before.",
   },
@@ -76,10 +76,9 @@ export const members = [
   {
     id: 11,
     github_username: "nagarajpurandar",
-    name: null,
+    name: "Nagaraj Purandar",
     role: "Member",
-    quote:
-      "There are two ways to write error-free programs; only the third one works.",
+    quote: "Hosting Websites is my passion.",
   },
   {
     id: 12,
