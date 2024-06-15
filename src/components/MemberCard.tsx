@@ -6,7 +6,8 @@ import { CardBody, CardContainer, CardItem } from "./ui/3dCard";
 import Link from "next/link";
 import Icon from "../images/icon1.avif";
 
-export function CouncilCard(props: any) {
+export function MemberCard(props: any) {
+  console.log(props);
   return (
     <CardContainer className="inter-var w-80">
       <CardBody className="bg-gray-50 relative group/card flex flex-col dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border text-center align-middle items-center ">
@@ -26,17 +27,17 @@ export function CouncilCard(props: any) {
         >
           {props.props.name}
         </CardItem>
-        <CardItem
+        {/* <CardItem
           as="p"
           translateZ="50"
-          className="text-neutral-500 text-md max-w-sm mt-2 dark:text-neutral-300"
+          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          {props.props.designation}
-        </CardItem>
+          {props.props.github_username}
+        </CardItem> */}
         <CardItem
           as="p"
           translateZ="40"
-          className="text-neutral-500 text-xl max-w-sm dark:text-neutral-300 font-zilla mt-5"
+          className="text-neutral-500 text-xl max-w-sm dark:text-neutral-300 font-serif mt-5"
         >
           &quot;{props.props.quote}&quot;
         </CardItem>
