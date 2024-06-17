@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Domain } from "@/components/sections/Domain";
+// import { Domain } from "@/components/sections/Domain";
 import { LayoutGridDemo } from "@/components/LayoutGrid";
 import Hero from "@/components/sections/Hero";
 
@@ -13,7 +13,7 @@ export default function Home() {
       <div className="h-screen">
         <h1>Domains</h1>
         {/* <Domain /> */}
-        {/* <LayoutGridDemo /> */}
+        <LayoutGridDemo />
       </div>
     </>
   );
