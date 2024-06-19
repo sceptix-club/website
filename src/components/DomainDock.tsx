@@ -1,40 +1,145 @@
+"use client";
 import { Dock, DockIcon } from "@/components/magicui/dock";
 import React from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { assetsPrefix } from "@/lib/helper";
+import { Tooltip } from "@nextui-org/tooltip";
+
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
-export function DockDemo() {
+export function DomainDock() {
   return (
-    <div className="relative flex h-screen w-full max-w-screen flex-col items-center pt-20 overflow-hidden rounded-lg border bg-background md:shadow-xl">
-      <span className="pointer-events-none w-full whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-extrabold font-fira_sans leading-none text-transparent dark:from-white dark:to-slate-900/10">
+    <div className="relative flex  h-screen w-full max-w-screen flex-col md:justify-center justify-around md:py-20 items-end md:pt-20 md:overflow-hidden rounded-lg bg-background md:shadow-xl">
+      <span className="pointer-events-none w-full whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center md:text-9xl text-7xl font-extrabold font-fira_sans leading-none text-transparent dark:from-white dark:to-slate-900/10 pb-12 ">
         Domains
       </span>
-      <Dock>
-        <DockIcon className="group">
-          {/* <Icons.gitHub className="h-6 w-6" /> */}
-          <p>media</p>
-          <div
-            className="invisible group-hover:visible absolute pr-10 pl-10 pt-2 pb-2 mt-24  
-            ml-4 bg-blue-500 text-white"
+      <Dock className="md:pb-24 md:mt-20">
+        <DockIcon>
+          <Tooltip
+            offset={20}
+            closeDelay={1000}
+            showArrow={true}
+            placement="bottom"
+            color="primary"
+            content={
+              <div className=" p-5 bg-[#000813] rounded-lg">
+                <div className="text-small font-bold">The Media team</div>
+                <div className="text-tiny">We do Media</div>
+              </div>
+            }
           >
-            <p>helo</p>
-          </div>
+            <Image
+              src={`${assetsPrefix}/icons/domains/media.avif`}
+              alt="media"
+              width={80}
+              height={80}
+              className="rounded-full w-full"
+            />
+          </Tooltip>
         </DockIcon>
         <DockIcon>
-          {/* <Icons.googleDrive className="h-6 w-6" /> */}
-          <p>web</p>
+          <Tooltip
+            offset={20}
+            closeDelay={1000}
+            showArrow={true}
+            placement="bottom"
+            color="primary"
+            content={
+              <div className="p-5 bg-[#000813] rounded-lg">
+                <div className="text-small font-bold">The Web team</div>
+                <div className="text-tiny">
+                  We build websites, just like this one.
+                </div>
+              </div>
+            }
+          >
+            <Image
+              src={`${assetsPrefix}/icons/domains/web.avif`}
+              alt="web"
+              width={80}
+              height={80}
+              className="rounded-full w-full"
+            />
+          </Tooltip>
         </DockIcon>
         <DockIcon>
-          {/* <Icons.notion className="h-6 w-6" /> */}
-          <p>AI</p>
+          <Tooltip
+            offset={20}
+            closeDelay={1000}
+            showArrow={true}
+            placement="bottom"
+            color="primary"
+            content={
+              <div className=" p-5 bg-[#000813] rounded-lg">
+                <div className="text-small font-bold">The AI team</div>
+                <div className="text-tiny">Delving into LLMs</div>
+              </div>
+            }
+          >
+            <Image
+              src={`${assetsPrefix}/icons/domains/ai.avif`}
+              alt="ai"
+              width={80}
+              height={80}
+              className="rounded-full w-full"
+            />
+          </Tooltip>
         </DockIcon>
         <DockIcon>
-          {/* <Icons.openai className="h-6 w-6" /> */}
-          <p>App</p>
+          <Tooltip
+            offset={20}
+            closeDelay={1000}
+            showArrow={true}
+            placement="bottom"
+            color="primary"
+            content={
+              <div className=" p-5 bg-[#000813] rounded-lg">
+                <div className="text-small font-bold">The App team</div>
+                <div className="text-tiny">We build Mobile applications</div>
+              </div>
+            }
+          >
+            <Image
+              src={`${assetsPrefix}/icons/domains/app.avif`}
+              alt="app"
+              width={80}
+              height={80}
+              className="rounded-full w-full"
+            />
+          </Tooltip>
         </DockIcon>
         <DockIcon>
-          {/* <Icons.whatsapp className="h-6 w-6" /> */}
-          <p>Game</p>
+          <Tooltip
+            offset={20}
+            closeDelay={1000}
+            showArrow={true}
+            placement="bottom"
+            color="primary"
+            content={
+              <div className=" p-5 bg-[#000813] rounded-lg">
+                <div className="text-small font-bold">The Game team</div>
+                <div className="text-tiny">Pro Gamer Move</div>
+              </div>
+            }
+          >
+            <Image
+              src={`${assetsPrefix}/icons/domains/game.avif`}
+              alt="game"
+              width={80}
+              height={80}
+              className="rounded-full w-full"
+            />
+          </Tooltip>
         </DockIcon>
       </Dock>
     </div>

@@ -11,11 +11,11 @@ export interface DockProps extends VariantProps<typeof dockVariants> {
   children: React.ReactNode;
 }
 
-const DEFAULT_MAGNIFICATION = 110;
+const DEFAULT_MAGNIFICATION = 130;
 const DEFAULT_DISTANCE = 140;
 
 const dockVariants = cva(
-  "mx-auto min-w-min w-1/3  h-1/6 min-h-min p-2 flex justify-center items-end gap-5 rounded-2xl font-fira_sans"
+  "mx-auto min-w-min w-1/3  h-1/6 min-h-min p-2 flex md:flex-row flex-col justify-center items-end gap-5 rounded-2xl font-fira_sans"
 );
 
 const Dock = React.forwardRef<HTMLDivElement, DockProps>(
@@ -87,7 +87,7 @@ const DockIcon = ({
   let widthSync = useTransform(
     distanceCalc,
     [-distance, 0, distance],
-    [80, magnification, 80]
+    [100, magnification, 100]
   );
 
   let width = useSpring(widthSync, {
@@ -101,7 +101,7 @@ const DockIcon = ({
       ref={ref}
       style={{ width }}
       className={cn(
-        "flex aspect-square cursor-pointer items-center justify-center rounded-full bg-neutral-400/40 ",
+        "flex aspect-square cursor-pointer items-center justify-center rounded-full bg-transparent ",
         className
       )}
       {...props}
