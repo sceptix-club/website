@@ -1,2 +1,2 @@
-export const assetsPrefix = "https://github.com/sceptix-club/website-assets"
-export const githubPrefix = "https://github.com"
+export const assetsPrefix = "https://sceptix-club.github.io/website-assets";
+export const githubPrefix = "https://github.com";
