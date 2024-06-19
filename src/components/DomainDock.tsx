@@ -110,7 +110,7 @@ export function DomainDock() {
             }
           >
             <Image
-              src={`${assetsPrefix}/icons/domains/app.avif`}
+              src={`${assetsPrefix}/icons/domains/android.avif`}
               alt="app"
               width={80}
               height={80}
