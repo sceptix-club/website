@@ -1,15 +1,14 @@
 export interface CouncilMemberType {
-    id : number;
+    id: number;
     name: string;
     designation: string;
     github_username: string;
     quote: string;
     image?: string;
-
 }
 
 export interface MemberType {
-    id : number;
+    id: number;
     github_username: string;
     name: string;
     role: string;
@@ -17,3 +16,8 @@ export interface MemberType {
     image?: string;
 }
 
+export interface EventsType {
+    title: string;
+    description: string;
+    image?: string;
+}
