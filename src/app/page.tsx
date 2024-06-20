@@ -9,9 +9,16 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="h-screen flex justify-center items-center">
-      <FlipWordsHero />
-      <RetroGrid />
+      <div className="h-screen flex flex-col justify-center items-center md:mt-[-50px] mt-[-100px]">
+        <Image
+          src="https://sceptix-club.github.io/website-assets/icons/logo.png"
+          alt="sceptix-logo"
+          width={500}
+          height={500}
+          className="invert"
+        />
+        <FlipWordsHero />
+        <RetroGrid />
       </div>
       <ScrollTextReveal />
       <div className="h-screen border bg-transparent"></div>

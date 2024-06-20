@@ -466,7 +466,7 @@ export const members: MemberType[] = [
     linkedin_link: "https://www.linkedin.com/in/uthpalsuvarna",
     image: "https://sceptix-club.github.io/website-assets/members/uthpal.avif",
     quote2: "hello world!",
-    quote: "youWant()?youCan()();",
+    quote: "youWant() ? youCan() : youCant();",
     quote3: "",
   },
   {
