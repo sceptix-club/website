@@ -21,11 +21,11 @@ export default function Home() {
         <RetroGrid />
       </div>
       <ScrollTextReveal />
-      <div className="h-screen border bg-transparent"></div>
-      {/* <ScrollVelocity /> */}
-      <div className="h-screen">
+      <div className="h-screen bg-transparent">
         <DomainDock />
       </div>
+      {/* <ScrollVelocity /> */}
+      <div className="h-screen border"></div>
     </>
   );
 }

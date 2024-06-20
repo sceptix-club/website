@@ -10,11 +10,11 @@ export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export function DomainDock() {
   return (
-    <div className="relative flex  h-screen w-full max-w-screen flex-col md:justify-center justify-around md:py-20 items-end md:pt-20 md:overflow-hidden rounded-lg bg-background md:shadow-xl">
+    <div className="relative flex font-fira_sans h-screen w-full max-w-screen flex-col md:justify-center justify-around md:py-20 items-end md:pt-20 md:overflow-hidden rounded-lg bg-background md:shadow-xl">
       <span className="pointer-events-none w-full whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center md:text-9xl text-7xl font-extrabold font-fira_sans leading-none text-transparent dark:from-white dark:to-slate-900/10 pb-12 ">
         Domains
       </span>
-      <Dock className="md:pb-24 md:mt-20">
+      <Dock className="md:pb-24 md:mt-20 font-jetbrains">
         <DockIcon>
           <Tooltip
             offset={20}
@@ -23,7 +23,7 @@ export function DomainDock() {
             placement="bottom"
             color="primary"
             content={
-              <div className=" p-5 bg-[#000813] rounded-lg">
+              <div className=" p-5 bg-[#000813] rounded-lg font-fira_sans">
                 <div className="text-small font-bold">The Media team</div>
                 <div className="text-tiny">We do Media</div>
               </div>
@@ -46,7 +46,7 @@ export function DomainDock() {
             placement="bottom"
             color="primary"
             content={
-              <div className="p-5 bg-[#000813] rounded-lg">
+              <div className="p-5 bg-[#000813] rounded-lg font-fira_sans">
                 <div className="text-small font-bold">The Web team</div>
                 <div className="text-tiny">
                   We build websites, just like this one.
@@ -71,9 +71,9 @@ export function DomainDock() {
             placement="bottom"
             color="primary"
             content={
-              <div className=" p-5 bg-[#000813] rounded-lg">
+              <div className=" p-5 bg-[#000813] rounded-lg font-fira_sans">
                 <div className="text-small font-bold">The AI team</div>
-                <div className="text-tiny">Delving into LLMs</div>
+                <div className="text-tiny">Harnessing the Unknown</div>
               </div>
             }
           >
@@ -94,9 +94,9 @@ export function DomainDock() {
             placement="bottom"
             color="primary"
             content={
-              <div className=" p-5 bg-[#000813] rounded-lg">
+              <div className=" p-5 bg-[#000813] rounded-lg font-fira_sans">
                 <div className="text-small font-bold">The App team</div>
-                <div className="text-tiny">We build Mobile applications</div>
+                <div className="text-tiny">Handheld, for the go</div>
               </div>
             }
           >
@@ -117,9 +117,11 @@ export function DomainDock() {
             placement="bottom"
             color="primary"
             content={
-              <div className=" p-5 bg-[#000813] rounded-lg">
+              <div className=" p-5 bg-[#000813] rounded-lg font-fira_sans">
                 <div className="text-small font-bold">The Game team</div>
-                <div className="text-tiny">Pro Gamer Move</div>
+                <div className="text-tiny">
+                  We do what&apos;s known as a Pro Gamer Move
+                </div>
               </div>
             }
           >
