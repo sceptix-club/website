@@ -20,3 +20,9 @@ export interface MemberType {
   quote3: string;
   image?: string;
 }
+
+export interface EventsType {
+  title: string;
+  description: string;
+  image?: string;
+}
