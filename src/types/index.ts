@@ -1,19 +1,22 @@
 export interface CouncilMemberType {
-    id : number;
-    name: string;
-    designation: string;
-    github_username: string;
-    quote: string;
-    image?: string;
-
+  id: number;
+  name: string;
+  role: string;
+  github_link: string;
+  linkedin_link: string;
+  quote: string;
+  quote2: string;
+  quote3: string;
+  image?: string;
 }
 
 export interface MemberType {
-    id : number;
-    github_username: string;
-    name: string;
-    role: string;
-    quote: string;
-    image?: string;
+  id: number;
+  github_link: string;
+  linkedin_link: string;
+  name: string;
+  quote: string;
+  quote2: string;
+  quote3: string;
+  image?: string;
 }
-

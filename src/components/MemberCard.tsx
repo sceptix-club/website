@@ -9,17 +9,17 @@ import { githubPrefix } from "@/lib/helper";
 export function MemberCard({
   id,
   name,
-  github_username,
+  github_link,
+  linkedin_link,
   quote,
-  designation,
   image,
   role,
 }: {
   id: number;
   name: string;
-  github_username: string;
+  github_link: string;
+  linkedin_link: string;
   quote: string;
-  designation?: string;
   image?: string;
   role?: string;
 }) {
@@ -28,7 +28,7 @@ export function MemberCard({
       <CardBody className="bg-gray-50 relative group/card flex flex-col dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-full rounded-xl p-6 border text-center align-middle items-center ">
         <CardItem translateZ="80" className="w-full mt-4">
           <Image
-            src="/icon1.avif"
+            src={image ?? ""}
             alt="sceptix"
             width="800"
             height="300"
@@ -42,13 +42,13 @@ export function MemberCard({
         >
           {name}
         </CardItem>
-        {designation && (
+        {role && (
           <CardItem
             as="p"
             translateZ="70"
             className="text-neutral-500 text-md max-w-sm mt-2 dark:text-neutral-300"
           >
-            {designation}
+            {role}
           </CardItem>
         )}
         <CardItem
@@ -59,7 +59,7 @@ export function MemberCard({
           &quot;{quote}&quot;
         </CardItem>
         <CardItem translateZ="80" className="justify-between mt-5 flex">
-          <Link href={`${githubPrefix}/${github_username}`}>
+          <Link href={github_link}>
             <Image
               src="/icons/github.png"
               alt="github"
@@ -68,7 +68,7 @@ export function MemberCard({
               className="invert mx-3"
             />
           </Link>
-          <Link href={`${githubPrefix}/${github_username}`}>
+          <Link href={linkedin_link} passHref>
             <Image
               src="/icons/linkedin.png"
               alt="github"
