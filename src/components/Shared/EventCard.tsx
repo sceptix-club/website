@@ -4,7 +4,6 @@ import {BackgroundGradient} from "../../components/ui/background-gradient"
 
 import {motion} from "framer-motion"
 const EventCard = () => {
-    const [open , setOpen] = useState(false)
     const [show,setShow] = useState(false)
   return (
     <div onMouseEnter={()=>{
@@ -14,11 +13,11 @@ const EventCard = () => {
     }}>
     <BackgroundGradient className="rounded-[22px] max-w-sm p-4  sm:p-10 bg-white dark:bg-black">
     <motion.div 
-    initial={{y:100}}
-    animate = {{y:0}}
-    transition={{duration:0.5}}
+    // initial={{y:100}}
+    // animate = {{y:0}}
+    // transition={{duration:0.5}}
 
-     className={` opacity-0 h-5/6 rounded-2xl md:ml-[-40px]  absolute bottom-1 bg-black flex ${show ? 'flex transition-all opacity-100 justify-center items-center ' : 'h-0 opacity-0'}`}>
+     className={` opacity-0 h-5/6 rounded-2xl md:ml-[-40px]  absolute bottom-1 bg-black flex ${show ? 'flex transition-all  opacity-100 justify-center items-center translate-y-0' : 'h-0 opacity-0 translate-y-12'}`}>
         <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto recusandae eum in placeat fugiat, temporibus dolores alias ratione ipsum molestias dicta, aut accusantium a quaerat harum nostrum velit! Nulla, voluptates?</p>
     </motion.div>
       <Image
