@@ -1,15 +1,12 @@
-import Image from "next/image";
-// import { Domain } from "@/components/sections/Domain";
-import { LayoutGridDemo } from "@/components/LayoutGrid";
-import Hero from "@/components/sections/Hero";
 import { DomainDock } from "@/components/DomainDock";
-import Beam from "@/components/Beam";
+import { ScrollTextReveal } from "@/components/ScrollTextReveal";
 
 export default function Home() {
   return (
     <>
-      <div className="h-screen">{/* <Hero /> */}</div>
-      <div className="h-screen">About Us</div>
+      <div className="h-screen border flex justify-center items-center"></div>
+      <ScrollTextReveal />
+      <div className="h-screen border">About Us</div>
       <div className="h-screen">
         <DomainDock />
       </div>
