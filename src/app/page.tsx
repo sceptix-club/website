@@ -1,25 +1,18 @@
-import Image from "next/image";
-// import { Domain } from "@/components/sections/Domain";
-import NavBar from "@/components/NavBar";
-import { LayoutGridDemo } from "@/components/LayoutGrid";
-import Hero from "@/components/sections/Hero";
+import { DomainDock } from "@/components/DomainDock";
+import { ScrollTextReveal } from "@/components/ScrollTextReveal";
 
 export default function Home() {
   return (
     <>
+      <div className="h-screen border flex justify-center items-center"></div>
+      <ScrollTextReveal />
+      <div className="h-screen border">About Us</div>
     <div>
       <NavBar/>
 
       <div className="h-screen">
-        <Hero />
+        <DomainDock />
       </div>
-      <div className="h-screen">About Us</div>
-      <div className="h-screen">
-        <h1>Domains</h1>
-        {/* <Domain /> */}
-        <LayoutGridDemo />
-      </div>
-    </div>
     </>
   );
 }
