@@ -1,6 +1,6 @@
 import { MemberCard } from "@/components/MemberCard";
 import React from "react";
-import { council, members } from "@/data/members";
+import { council, members } from "@/data";
 import { CouncilMemberType, MemberType } from "@/types";
 
 type Props = {};
