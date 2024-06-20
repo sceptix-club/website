@@ -10,7 +10,7 @@ const NavBar: React.FC = () => {
     };
 
     return (
-        <nav className="sticky top-0 z-50 h-[70px] flex items-center justify-between my-4 mx-6 px-4 py-1 rounded-xl bg-white backdrop-filter backdrop-blur-sm bg-opacity-20 border-b border-gray-900 shadow-lg">
+        <nav className="sticky top-4 z-50 h-[70px] flex items-center justify-between my-4 mx-6 px-4 py-1 rounded-xl bg-white backdrop-filter backdrop-blur-sm bg-opacity-20 border-b border-gray-900 shadow-lg">
             <div className="max-w-5xl w-full mx-auto flex justify-between items-center">
                 <span className="text-2xl text-white-900 font-semibold">Logo</span>
                 <div className="hidden md:flex space-x-4 md:space-x-14 text-white-100">
