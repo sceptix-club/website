@@ -6,12 +6,13 @@ import {motion} from "framer-motion"
 const EventCard = () => {
     const [show,setShow] = useState(false)
   return (
-    <div onMouseEnter={()=>{
+    <div className='relative sm:w-10/12 lg:w-8/12'
+    onMouseEnter={()=>{
         setShow(true)
     }} onMouseLeave={()=>{
         setShow(false)
     }}>
-    <BackgroundGradient className="rounded-[22px] max-w-sm p-4  sm:p-10 bg-white dark:bg-black">
+    <BackgroundGradient className="rounded-[22px] p-4  sm:p-10 bg-white dark:bg-black">
     <motion.div 
     // initial={{y:100}}
     // animate = {{y:0}}
@@ -42,3 +43,5 @@ const EventCard = () => {
 }
 
 export default EventCard
+
+
