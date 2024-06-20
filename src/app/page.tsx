@@ -3,7 +3,7 @@ import { DomainDock } from "@/components/DomainDock";
 import { FlipWordsHero } from "@/components/FlipWordsHero";
 import RetroGrid from "@/components/magicui/retro-grid";
 import { ScrollTextReveal } from "@/components/ScrollTextReveal";
-import { ScrollVelocity } from "@/components/ScrollVelocity";
+// import { ScrollVelocity } from "@/components/ScrollVelocity";
 import Image from "next/image";
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       </div>
       <ScrollTextReveal />
       <div className="h-screen border bg-transparent"></div>
-      <ScrollVelocity />
+      {/* <ScrollVelocity /> */}
       <div className="h-screen">
         <DomainDock />
       </div>
