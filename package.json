@@ -11,8 +11,8 @@
   "dependencies": {
     "@motionone/utils": "^10.18.0",
     "@nextui-org/tooltip": "^2.0.36",
-    "daisyui": "^4.12.2",
     "class-variance-authority": "^0.7.0",
+    "daisyui": "^4.12.2",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.4",
     "react": "^18",
