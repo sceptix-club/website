@@ -10,6 +10,8 @@ import NavBar from "@/components/NavBar";
 export default function Home() {
   return (
     <>
+    <div>
+      <NavBar/>
       <div className="h-screen border flex justify-center items-center"></div>
       <ScrollTextReveal />
       <div className="h-screen border bg-transparent"></div>
@@ -17,6 +19,7 @@ export default function Home() {
       <div className="h-screen">
         <DomainDock />
       </div>
+    </div>
     </>
   );
 }
