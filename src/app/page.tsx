@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <>
       <div className="h-screen flex justify-center items-center">
-        <FlipWordsHero />
-        <RetroGrid />
+      <FlipWordsHero />
+      <RetroGrid />
       </div>
       <ScrollTextReveal />
       <div className="h-screen border bg-transparent"></div>
