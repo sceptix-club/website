@@ -15,7 +15,7 @@ const EventCard = ({ title, description,image }: { title: string; description: s
                 setShow(false);
             }}
         >
-            <BackgroundGradient className="rounded-[22px] p-4  sm:p-10 bg-white dark:bg-black">
+            <BackgroundGradient className="rounded-[22px] p-4  sm:p-10 bg-white dark:bg-black ">
                 <motion.div
                     // initial={{y:100}}
                     // animate = {{y:0}}
@@ -36,7 +36,7 @@ const EventCard = ({ title, description,image }: { title: string; description: s
                     alt="event_image"
                     height={400}
                     width={400}
-                    className="rounded-md bg-blue-900 h-[400px] w-[450px] "
+                    className="rounded-md bg-black h-[400px] w-[450px] "
                 />
                 <p className="text-base sm:text-xl text-black mt-6 md:text-2xl mb-2 dark:text-neutral-200 text-center font-mono">
                     {title}
