@@ -6,7 +6,8 @@ import {motion} from "framer-motion"
 const EventCard = () => {
     const [show,setShow] = useState(false)
   return (
-    <div onMouseEnter={()=>{
+    <div className='relative w-8/12'
+    onMouseEnter={()=>{
         setShow(true)
     }} onMouseLeave={()=>{
         setShow(false)
@@ -42,3 +43,5 @@ const EventCard = () => {
 }
 
 export default EventCard
+
+
