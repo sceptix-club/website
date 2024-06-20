@@ -12,7 +12,10 @@ export default function Home() {
     <>
     <div>
       <NavBar/>
-      <div className="h-screen border flex justify-center items-center"></div>
+      <div className="h-screen border flex justify-center items-center">
+      <FlipWordsHero />
+      <RetroGrid />
+      </div>
       <ScrollTextReveal />
       <div className="h-screen border bg-transparent"></div>
       {/* <ScrollVelocity /> */}
