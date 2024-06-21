@@ -58,7 +58,7 @@ const DomainMobile = (props: Props) => {
           <div className="text-tiny">Handheld, for the go</div>
         </div>
         <Image
-          src={`${assetsPrefix}/icons/domains/app.avif`}
+          src={`${assetsPrefix}/icons/domains/android.avif`}
           alt="design"
           width={80}
           height={80}
