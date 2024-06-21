@@ -163,7 +163,7 @@ export const members: MemberType[] = [
     image: "https://sceptix-club.github.io/website-assets/members/arshith.avif",
     quote3: "Just Enjoying",
     quote2: "What does thinking out of the box mean? 🤔",
-    quote: "I want a vacation😭",
+    quote: "Hackerrank without a Hacker without a rank",
   },
   {
     id: 4,
