@@ -13,9 +13,9 @@ export default function Home() {
         <Image
           src="https://sceptix-club.github.io/website-assets/icons/logo_square.png"
           alt="sceptix-logo"
-          width={300}
-          height={300}
-          className="invert mt-[-50px]"
+          width={350}
+          height={350}
+          className="invert lg:mt-[-50px] mt-10 md:w-1/5 w-1/2"
         />
         <FlipWordsHero />
         <RetroGrid />

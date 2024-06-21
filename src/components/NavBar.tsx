@@ -12,7 +12,7 @@ const NavBar: React.FC = () => {
   };
 
   return (
-    <nav className="sticky top-4 z-50 lg:h-[80px] h-[60px] flex  items-center justify-center my-4 lg:mx-32 mx-6 px-4  py-1 rounded-full bg-white backdrop-filter backdrop-blur-sm bg-opacity-20 border-b border-gray-900 shadow-lg font-fira_sans pl-0">
+    <nav className="sticky top-4 z-50 lg:h-[70px] h-[60px] flex  items-center justify-center my-4 lg:mx-32 mx-6 px-4  py-1 rounded-full bg-white backdrop-filter backdrop-blur-sm bg-opacity-20 border-b border-gray-900 shadow-lg font-fira_sans pl-0">
       <div className=" w-full  mx-3 md:mr-10 flex justify-between items-center">
         {/* <span className="text-2xl text-white-900 font-semibold">Logo</span> */}
         <Link href="/">
@@ -21,7 +21,7 @@ const NavBar: React.FC = () => {
             alt="sceptix-logo"
             width={70}
             height={70}
-            className="invert hover:scale-110  transform transition duration-300 ease-in-out cursor-pointer  py-5"
+            className="invert hover:scale-110  transform transition duration-300 ease-in-out cursor-pointer  py-5 md:w-1/2 w-2/5"
           />
         </Link>
         <div className="hidden md:flex space-x-4 md:space-x-14 text-white-100">
