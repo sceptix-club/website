@@ -244,7 +244,7 @@ export const members: MemberType[] = [
     github_link: "https://github.com/JoshuaAlbuquerque",
     linkedin_link: "https://www.linkedin.com/in/joshua-albuquerque-778386274",
     image: "https://sceptix-club.github.io/website-assets/members/joshua.avif",
-    quote: "01010011 01001111 01010011",
+    quote: "Joel is my enemy.",
     quote2: "",
     quote3: "",
   },
