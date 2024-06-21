@@ -1,5 +1,6 @@
 // import { BoxRevealHero } from "@/components/BoxRevealHero";
 import { DomainDock } from "@/components/DomainDock";
+import DomainMobile from "@/components/DomainMobile";
 import { FlipWordsHero } from "@/components/FlipWordsHero";
 import RetroGrid from "@/components/magicui/retro-grid";
 import { RevealLinks } from "@/components/RevealLinks";
@@ -24,9 +25,12 @@ export default function Home() {
       <ScrollTextReveal />
       <div className="h-screen bg-transparent">
         <DomainDock />
+        <DomainMobile />
       </div>
-      {/* <ScrollVelocity /> */}
-      <div className="h-screen pt-16">
+      <div className="h-screen  p-5 md:px-20 flex flex-col justify-center items-center ">
+        <h1 className="pointer-events-none w-full whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center md:text-7xl lg:text-9xl text-5xl font-black font-fira_sans leading-none text-transparent dark:from-white dark:to-slate-900/10 pb-12 ">
+          Explore more
+        </h1>
         <RevealLinks />
       </div>
     </>

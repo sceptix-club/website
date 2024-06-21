@@ -4,9 +4,8 @@ import { motion } from "framer-motion";
 
 export const RevealLinks = () => {
   return (
-    <section className="grid place-content-center gap-2 bg-black px-8 py-24 text-white">
+    <section className="grid place-content-center gap-2 bg-black w-full h-max md:px-8 py-4 text-white font-fira_sans">
       <FlipLink href="/members">Members</FlipLink>
-      {/* <br className="my-3" /> */}
       <FlipLink href="/events">Events</FlipLink>
       <FlipLink href="https://github.com/sceptix-club">GitHub</FlipLink>
       <FlipLink href="https://www.linkedin.com/company/sceptix">
@@ -25,7 +24,7 @@ const FlipLink = ({ children, href }: { children: string; href: string }) => {
       initial="initial"
       whileHover="hovered"
       href={href}
-      className="relative block overflow-hidden whitespace-nowrap text-4xl font-black uppercase sm:text-7xl md:text-8xl lg:text-9xl"
+      className="relative hover:text-[#0aceb2] block overflow-hidden whitespace-nowrap text-5xl font-black uppercase sm:text-6xl md:text-7xl lg:text-8xl"
       style={{
         lineHeight: 0.75,
       }}
