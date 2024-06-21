@@ -12,16 +12,16 @@ const NavBar: React.FC = () => {
   };
 
   return (
-    <nav className="sticky top-4 z-50 h-[80px] flex items-center justify-between my-4 mx-6 px-4 md:pr-10 py-1 rounded-xl bg-white backdrop-filter backdrop-blur-sm bg-opacity-20 border-b border-gray-900 shadow-lg font-fira_sans">
-      <div className=" w-full mx-3 md:mr-10 flex justify-between items-center">
+    <nav className="sticky top-4 z-50 lg:h-[70px] h-[60px] flex  items-center justify-center my-4 lg:mx-32 mx-6 px-4  py-1 rounded-full bg-white backdrop-filter backdrop-blur-sm bg-opacity-20 border-b border-gray-900 shadow-lg font-fira_sans pl-0">
+      <div className=" w-full  mx-3 md:mr-10 flex justify-between items-center">
         {/* <span className="text-2xl text-white-900 font-semibold">Logo</span> */}
         <Link href="/">
           <Image
-            src="https://sceptix-club.github.io/website-assets/icons/logo.png"
+            src="https://sceptix-club.github.io/website-assets/icons/logo_square.png"
             alt="sceptix-logo"
-            width={120}
-            height={120}
-            className="invert hover:scale-110 transform transition duration-300 ease-in-out cursor-pointer md:w-full md:ml-0 ml-[-25px] "
+            width={70}
+            height={70}
+            className="invert hover:scale-110  transform transition duration-300 ease-in-out cursor-pointer  py-5 md:w-1/2 w-2/5"
           />
         </Link>
         <div className="hidden md:flex space-x-4 md:space-x-14 text-white-100">

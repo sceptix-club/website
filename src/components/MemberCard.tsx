@@ -24,7 +24,7 @@ export function MemberCard({
   role?: string;
 }) {
   return (
-    <CardContainer className="inter-var w-80">
+    <CardContainer className="inter-var w-80 h-max">
       <CardBody className="bg-gray-50 relative group/card flex flex-col dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-full rounded-xl p-6 border text-center align-middle items-center ">
         <CardItem translateZ="80" className="w-full mt-4">
           <Image
@@ -59,24 +59,28 @@ export function MemberCard({
           &quot;{quote}&quot;
         </CardItem>
         <CardItem translateZ="80" className="justify-between mt-5 flex">
-          <Link href={github_link}>
-            <Image
-              src="/icons/github.png"
-              alt="github"
-              width="40"
-              height="40"
-              className="invert mx-3"
-            />
-          </Link>
-          <Link href={linkedin_link} passHref>
-            <Image
-              src="/icons/linkedin.png"
-              alt="github"
-              width="40"
-              height="40"
-              className="invert mx-3"
-            />
-          </Link>
+          {github_link && (
+            <Link href={github_link}>
+              <Image
+                src="/icons/github.png"
+                alt="github"
+                width="40"
+                height="40"
+                className="invert mx-3"
+              />
+            </Link>
+          )}
+          {linkedin_link && (
+            <Link href={linkedin_link} passHref>
+              <Image
+                src="/icons/linkedin.png"
+                alt="github"
+                width="40"
+                height="40"
+                className="invert mx-3"
+              />
+            </Link>
+          )}
         </CardItem>
         <div className="flex justify-between items-center mt-2"></div>
       </CardBody>
