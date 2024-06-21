@@ -7,7 +7,7 @@ type Props = {};
 const DomainMobile = (props: Props) => {
   return (
     <div className="md:hidden relative flex font-fira_sans h-screen w-full max-w-screen flex-col justify-around rounded-lg bg-background">
-      <span className="pointer-events-none w-full whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center  text-6xl font-extrabold font-fira_sans leading-none text-transparent dark:from-white dark:to-slate-900/10 lg:pb-12 ">
+      <span className="pointer-events-none w-full whitespace-pre-wrap bg-gradient-to-b  bg-clip-text text-center  text-6xl font-extrabold font-fira_sans leading-none text-transparent from-white to-slate-900/10 lg:pb-12 ">
         Domains
       </span>
       <div className="flex justify-around flex-row px-5 pt-5">

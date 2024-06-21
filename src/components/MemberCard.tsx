@@ -25,7 +25,7 @@ export function MemberCard({
 }) {
   return (
     <CardContainer className="inter-var w-80 h-max">
-      <CardBody className="bg-gray-50 relative group/card flex flex-col dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-full rounded-xl p-6 border text-center align-middle items-center ">
+      <CardBody className=" relative group/card flex flex-col hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2]  w-auto sm:w-[30rem] h-full rounded-xl p-6 border text-center align-middle items-center ">
         <CardItem translateZ="80" className="w-full mt-4">
           <Image
             src={image ?? ""}
@@ -38,7 +38,7 @@ export function MemberCard({
         <CardItem
           translateZ="80"
           as="h1"
-          className="text-xl font-bold text-neutral-600 dark:text-white mt-4 text-center"
+          className="text-xl font-bold text-white mt-4 text-center"
         >
           {name}
         </CardItem>
@@ -46,7 +46,7 @@ export function MemberCard({
           <CardItem
             as="p"
             translateZ="70"
-            className="text-neutral-500 text-md max-w-sm mt-2 dark:text-neutral-300"
+            className="text-md max-w-sm mt-2 text-neutral-300"
           >
             {role}
           </CardItem>
@@ -54,7 +54,7 @@ export function MemberCard({
         <CardItem
           as="p"
           translateZ="70"
-          className="text-neutral-500 text-xl max-w-sm dark:text-neutral-300 font-zilla mt-5"
+          className="text-xl max-w-sm text-neutral-300 font-zilla mt-5"
         >
           &quot;{quote}&quot;
         </CardItem>

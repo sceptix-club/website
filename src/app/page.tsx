@@ -28,7 +28,7 @@ export default function Home() {
         <DomainMobile />
       </div>
       <div className="h-screen  p-5 md:px-20 flex flex-col justify-center items-center ">
-        <h1 className="pointer-events-none w-full whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center md:text-7xl lg:text-9xl text-5xl font-black font-fira_sans leading-none text-transparent dark:from-white dark:to-slate-900/10 pb-12 ">
+        <h1 className="pointer-events-none w-full whitespace-pre-wrap bg-gradient-to-b  bg-clip-text text-center md:text-7xl lg:text-9xl text-5xl font-black font-fira_sans leading-none text-transparent from-white to-slate-900/10 pb-12 ">
           Explore more
         </h1>
         <RevealLinks />

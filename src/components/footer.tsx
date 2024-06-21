@@ -74,7 +74,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-6 text-sm text-center dark: text-neutral-200 font-jetbrains">
+      <div className="py-6 text-sm text-center  text-neutral-200 font-jetbrains">
         © 2024 sceptix . All rights reserved.
       </div>
     </footer>
