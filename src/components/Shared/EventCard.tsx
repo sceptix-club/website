@@ -33,7 +33,7 @@ const EventCard = ({ title, description,image }: { title: string; description: s
                 </motion.div>
                 <Image
                     src={image || ``}
-                    alt="event_image"
+                    alt={title+"image"}
                     height={400}
                     width={400}
                     className="rounded-md bg-black h-[400px] w-[450px] "
