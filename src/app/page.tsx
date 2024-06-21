@@ -9,13 +9,13 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="h-screen flex flex-col justify-center items-center md:mt-[-50px] mt-[-100px]">
+      <div className="h-screen flex flex-col justify-center items-center md:mt-[-80px] mt-[-110px]">
         <Image
-          src="https://sceptix-club.github.io/website-assets/icons/logo.png"
+          src="https://sceptix-club.github.io/website-assets/icons/logo_square.png"
           alt="sceptix-logo"
-          width={500}
-          height={500}
-          className="invert"
+          width={300}
+          height={300}
+          className="invert mt-[-50px]"
         />
         <FlipWordsHero />
         <RetroGrid />
