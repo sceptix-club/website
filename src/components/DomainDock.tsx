@@ -10,11 +10,11 @@ export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export function DomainDock() {
   return (
-    <div className="relative flex font-fira_sans h-screen w-full max-w-screen flex-col md:justify-center justify-around md:py-20 items-end md:pt-20 md:overflow-hidden rounded-lg bg-background md:shadow-xl">
-      <span className="pointer-events-none w-full whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center md:text-9xl text-7xl font-extrabold font-fira_sans leading-none text-transparent dark:from-white dark:to-slate-900/10 pb-12 ">
+    <div className="relative hidden md:flex font-fira_sans h-screen w-full max-w-screen flex-col md:justify-center justify-around md:py-20 items-end md:pt-20 md:overflow-hidden rounded-lg bg-background md:shadow-xl">
+      <span className="pointer-events-none w-full whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center md:text-9xl text-7xl font-extrabold font-fira_sans leading-none text-transparent dark:from-white dark:to-slate-900/10 md:pb-12 ">
         Domains
       </span>
-      <Dock className="md:pb-24 md:mt-20 font-jetbrains">
+      <Dock className="md:pb-24 md:mt-20 mt-0 font-jetbrains">
         <DockIcon>
           <Tooltip
             offset={20}
