@@ -34,7 +34,9 @@ const Footer = () => {
         </div>
         <div className=" w-1/2  text-sm  lg:w-1/2  place-self-center ">
           <div className="space-y-3 flex flex-col max-w-1/2  md:items-end items-center">
-            <div className="uppercase text-lg text-white">Social media</div>
+            <div className="uppercase text-lg text-white font-jetbrains">
+              Social media
+            </div>
             <div className="flex  space-x-3">
               <Link
                 rel="noopener noreferrer"
@@ -72,7 +74,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-6 text-sm text-center dark: text-neutral-200">
+      <div className="py-6 text-sm text-center dark: text-neutral-200 font-jetbrains">
         © 2024 sceptix . All rights reserved.
       </div>
     </footer>
