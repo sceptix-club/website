@@ -106,8 +106,8 @@ export const council: CouncilMemberType[] = [
     linkedin_link: "https://linkedin.com/in/prathamvbhat",
     image: "https://sceptix-club.github.io/website-assets/council/pratham.avif",
     quote2: "Who Owns the Information, He Owns the World",
-    quote: "Remembers everything… except the important stuff",
-    quote3: "",
+    quote3: "Remembers everything… except the important stuff",
+    quote: "My name is Factor, WOW FACTOR",
   },
   {
     id: 10,
