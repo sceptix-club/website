@@ -499,6 +499,39 @@ export const members: MemberType[] = [
     quote2: "Living life one byte at a time.",
     quote3: "-",
   },
+  {
+    id: 36,
+    name: "Jia Menezes",
+    github_link: "github.com/JIAMENEZES",
+    linkedin_link:
+      "https://www.linkedin.com/in/jia-menezes-b124bb2ab/?originalSubdomain=in",
+    image: "https://sceptix-club.github.io/website-assets/members/jia.avif",
+    quote: "Tech isn't my jam, but I'm always cooking up something else!",
+    quote2:
+      "I might code disasters, but I’m a pro at debugging with smiles and happiness!",
+    quote3: "",
+  },
+  {
+    id: 37,
+    name: "Delwin Moras",
+    github_link: "https://github.com/Del-",
+    linkedin_link: "https://www.linkedin.com/in/delwin-moras-3212b42a5/",
+    image: "https://sceptix-club.github.io/website-assets/members/delwin.avif",
+    quote: "i have dyxlesia",
+    quote2: "english or spanish?",
+    quote3: "",
+  },
+  {
+    id: 38,
+    name: "Varshitha Kulkarni",
+    github_link: "https://github.com/varshitha-3",
+    linkedin_link: "https://in.linkedin.com/in/varshitha-.kulkarni",
+    image:
+      "https://sceptix-club.github.io/website-assets/members/varshitha.avif",
+    quote: "The Big Bang Theory S2 E8 0:38",
+    quote2: "Am I testing the code or is it testing me?",
+    quote3: "",
+  },
 ];
 export const events: EventsType[] = [
   {
