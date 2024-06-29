@@ -13,11 +13,11 @@ export default function Home() {
     <>
       <div className="h-screen flex flex-col justify-center items-center md:mt-[-80px] mt-[-110px] ">
         <Image
-          src="https://sceptix-club.github.io/website-assets/icons/logo_square.png"
+          src="https://sceptix-club.github.io/website-assets/icons/logo_png.png"
           alt="sceptix-logo"
           width={350}
           height={350}
-          className="invert lg:mt-[-50px] mt-10 md:w-1/5 w-1/2"
+          className=" invert lg:mt-[-50px] mt-10 md:w-1/5 w-1/2"
         />
         <FlipWordsHero />
         <RetroGrid />
