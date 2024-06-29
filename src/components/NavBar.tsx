@@ -17,11 +17,11 @@ const NavBar: React.FC = () => {
         {/* <span className="text-2xl text-white-900 font-semibold">Logo</span> */}
         <Link href="/">
           <Image
-            src="https://sceptix-club.github.io/website-assets/icons/logo_square.png"
+            src="https://sceptix-club.github.io/website-assets/icons/logo_png.png"
             alt="sceptix-logo"
             width={70}
             height={70}
-            className="invert hover:scale-110  transform transition duration-300 ease-in-out cursor-pointer  py-5 md:w-1/2 w-2/5"
+            className=" invert hover:scale-110  transform transition duration-300 ease-in-out cursor-pointer p-3  py-5 md:w-1/2 w-2/5"
           />
         </Link>
         <div className="hidden md:flex space-x-4 md:space-x-14 text-white-100">

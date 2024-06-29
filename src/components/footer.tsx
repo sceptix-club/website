@@ -19,11 +19,11 @@ const Footer = () => {
           >
             <div className="flex items-center justify-center w-12 h-12 rounded-full">
               <Image
-                src="https://sceptix-club.github.io/website-assets/icons/logo_square.png"
+                src="https://sceptix-club.github.io/website-assets/icons/logo_png.png"
                 width={150}
                 height={150}
                 alt={"Logo"}
-                className="bg-white rounded-full"
+                className="bg-white rounded-full p-1"
               />
             </div>
             <span className="self-center text-2xl font-semibold font-fira_sans">
