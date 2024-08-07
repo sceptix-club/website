@@ -15,7 +15,7 @@ const Members = (props: Props) => {
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 mt-1">
             {council.map((member: CouncilMemberType) => (
-              <div key={member.name}>
+              <div key={member.github_link}>
                 <MemberCard {...member} />
               </div>
             ))}
@@ -27,7 +27,7 @@ const Members = (props: Props) => {
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 mt-1">
             {members.map((member: MemberType) => (
-              <div key={member.name}>
+              <div key={member.github_link}>
                 <MemberCard {...member} />
               </div>
             ))}
