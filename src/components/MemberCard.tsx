@@ -44,9 +44,9 @@ export function MemberCard({
                 <CardItem
                     as="p"
                     translateZ="70"
-                    className="text-xl max-w-sm text-neutral-300 font-zilla mt-5"
+                    className="text-xl max-w-sm text-neutral-300 font-zilla mt-5 whitespace-pre-wrap"
                 >
-                    &quot;{quote}&quot;
+                    {quote}
                 </CardItem>
                 <CardItem translateZ="80" className="justify-between mt-5 flex">
                     {github_link && (
