@@ -151,6 +151,16 @@ git push
         quote2: "May the source be with you.",
         quote3: "Debugging is my cardio.",
     },
+    {
+        name: "Omkar Bhat",
+        role: "Co-Founder",
+        github_link: "https://github.com/OmkarBhat08",
+        linkedin_link: "https://www.linkedin.com/in/omkar-bhat/",
+        image: "https://sceptix-club.github.io/website-assets/council/omkar.avif",
+        quote: "Driven by passion, fueled by curiosity",
+        quote2: "Mindful minimalist with a tech twist",
+        quote3: "Minimalism meets Myth, Psychology and Tech",
+    },
 ];
 
 export const members: MemberType[] = [
