@@ -183,15 +183,15 @@ export const members: MemberType[] = [
         quote2: "Stream",
         quote3: "Flowin' in the wind",
     },
-    // {
-    //     name: "Armie",
-    //     github_link: "",
-    //     linkedin_link: "",
-    //     image: "https://sceptix-club.github.io/website-assets/members/.avif",
-    //     quote: "I identify as a projector stand.",
-    //     quote2: "Stream",
-    //     quote3: "Flowin' in the wind",
-    // },
+    {
+        name: "Armie",
+        github_link: "https://github.com/sceptix-club",
+        linkedin_link: "",
+        image: "https://sceptix-club.github.io/website-assets/members/armie.avif",
+        quote: "I identify as a projector stand.",
+        quote2: "Stream",
+        quote3: "Flowin' in the wind",
+    },
 
     {
         name: "Ashish Y G",
