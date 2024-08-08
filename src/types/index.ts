@@ -1,5 +1,5 @@
 export interface CouncilMemberType {
-  id: number;
+
   name: string;
   role: string;
   github_link: string;
@@ -11,7 +11,7 @@ export interface CouncilMemberType {
 }
 
 export interface MemberType {
-  id: number;
+
   github_link: string;
   linkedin_link: string;
   name: string;
