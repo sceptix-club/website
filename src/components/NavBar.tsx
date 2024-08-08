@@ -94,11 +94,11 @@ const NavBar: React.FC = () => {
             className="w-full flex flex-col items-center py-4 z-50 rounded-b-3xl"
           >
             <div className="flex flex-col items-center space-y-6 w-full mb-3">
-              <Link href="/events" legacyBehavior>
-                <a className="text-2xl font-semibold hover:text-gray-400">Events</a>
+              <Link href="/events" legacyBehavior >
+                <a className="text-2xl font-semibold hover:text-gray-400" onClick={toggleMenu}>Events</a>
               </Link>
-              <Link href="/members" legacyBehavior>
-                <a className="text-2xl font-semibold hover:text-gray-400">Members</a>
+              <Link href="/members" legacyBehavior >
+                <a className="text-2xl font-semibold hover:text-gray-400" onClick={toggleMenu}>Members</a>
               </Link>
             </div>
           </motion.div>
