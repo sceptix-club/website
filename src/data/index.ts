@@ -277,7 +277,7 @@ export const members: MemberType[] = [
         image: "https://sceptix-club.github.io/website-assets/members/joywin.avif",
         quote3: "I have Dementia.",
         quote2: "Watashi baka.",
-        quote: "spiring Developers.",
+        quote: "Impact Kid: Inspiring Developers.",
     },
     {
         name: "Kaavya Rao",
