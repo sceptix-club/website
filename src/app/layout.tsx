@@ -2,27 +2,29 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import NavBar from "@/components/NavBar";
 import "./globals.css";
-import Footer from "@/components/footer"
+import Footer from "@/components/footer";
+import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "The sceptix club",
-  description:
-    "A college-level club in St Joseph Engineering College that promotes the use of Free and Open Source Software to Liberate Your Mind.",
+    title: "The sceptix club",
+    description:
+        "A college-level club in St Joseph Engineering College that promotes the use of Free and Open Source Software to Liberate Your Mind.",
 };
 
 export default function RootLayout({
-  children,
+    children,
 }: Readonly<{
-  children: React.ReactNode;
+    children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className={inter.className}>
-      <NavBar />
-      {children}
-      <Footer/>
-      </body>
-    </html>
-  );
+    return (
+        <html lang="en">
+            <Script defer src={process.env.WEBSITE_SRC} data-website-id={process.env.WEBSITE_ID}></Script>
+            <body className={inter.className}>
+                <NavBar />
+                {children}
+                <Footer />
+            </body>
+        </html>
+    );
 }
