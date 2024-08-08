@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import NavBar from "@/components/NavBar";
 import "./globals.css";
 import Footer from "@/components/footer";
+import Script from "next/script";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -30,7 +32,11 @@ export const metadata: Metadata = {
             follow: true,
         },
     },
-};
+  }
+
+
+
+
 
 export default function RootLayout({
     children,
@@ -38,7 +44,10 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
+
         <html lang="en" className="custom-scrollbar">
+            <Script defer src={process.env.WEBSITE_SRC} data-website-id={process.env.WEBSITE_ID}></Script>
+
             <body className={inter.className}>
                 <NavBar />
                 {children}
