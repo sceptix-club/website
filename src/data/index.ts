@@ -102,7 +102,7 @@ export const council: CouncilMemberType[] = [
         image: "https://sceptix-club.github.io/website-assets/council/vyshnav.avif",
         quote: `In case of fire:
 git commit
-git push'
+git push
 🏃‍♂️ Leave the building 
 `,
         quote2: "The best way to predict the future is to create it.",
