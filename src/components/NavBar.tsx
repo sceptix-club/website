@@ -46,6 +46,9 @@ const NavBar: React.FC = () => {
                         <motion.a href="/events" className="text-sm md:text-xl font-semibold ">
                             Events
                         </motion.a>
+                        <motion.a href="/projects" className="text-sm md:text-xl font-semibold ">
+                            Projects
+                        </motion.a>
                     </div>
                     <div className="md:hidden ml-4">
                         <button onClick={toggleMenu} aria-label="Toggle menu" title="Toggle menu">
@@ -108,6 +111,14 @@ const NavBar: React.FC = () => {
                                     onClick={toggleMenu}
                                 >
                                     Members
+                                </a>
+                            </Link>
+                            <Link href="/projects" legacyBehavior>
+                                <a
+                                    className="text-2xl font-semibold hover:text-gray-400"
+                                    onClick={toggleMenu}
+                                >
+                                    Projects
                                 </a>
                             </Link>
                         </div>
