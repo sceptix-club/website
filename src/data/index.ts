@@ -43,17 +43,17 @@ export const council: CouncilMemberType[] = [
         quote2: "",
         quote3: "",
     },
-    {
-        name: "Nahla Nafeesa Adiraja",
-        role: "Secretary",
-        github_link: "https://github.com/nahla2405",
-        linkedin_link:
-            "https://www.linkedin.com/in/nahla-nafeesa-adiraja-a7487b2a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        image: "https://sceptix-club.github.io/website-assets/council/nahla.avif",
-        quote: "My brain has too many tabs open",
-        quote2: "I put the ‘Pro’ in procrastination",
-        quote3: "Home is where the WiFi connects automatically.",
-    },
+    // {
+    //     name: "Nahla Nafeesa Adiraja",
+    //     role: "Secretary",
+    //     github_link: "https://github.com/nahla2405",
+    //     linkedin_link:
+    //         "https://www.linkedin.com/in/nahla-nafeesa-adiraja-a7487b2a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    //     image: "https://sceptix-club.github.io/website-assets/council/nahla.avif",
+    //     quote: "My brain has too many tabs open",
+    //     quote2: "I put the ‘Pro’ in procrastination",
+    //     quote3: "Home is where the WiFi connects automatically.",
+    // },
     {
         name: "Ashley Cleon Pinto",
         role: "Joint Secretary",
