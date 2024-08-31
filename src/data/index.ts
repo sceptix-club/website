@@ -20,7 +20,7 @@ export const council: CouncilMemberType[] = [
         image: "https://sceptix-club.github.io/website-assets/council/rachan.avif",
         quote3: "Confused? Me too. But watch me pretend I know what I'm doing!",
         quote2: "I am here and I am not",
-        quote: "Life's like a chaotic game of Among Us—I may look sus, but I'm just here to mess with the imposters! ;)",
+        quote: "┐(￣ヘ￣）┌",
     },
 
     {
@@ -43,17 +43,17 @@ export const council: CouncilMemberType[] = [
         quote2: "",
         quote3: "",
     },
-    {
-        name: "Nahla Nafeesa Adiraja",
-        role: "Secretary",
-        github_link: "https://github.com/nahla2405",
-        linkedin_link:
-            "https://www.linkedin.com/in/nahla-nafeesa-adiraja-a7487b2a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        image: "https://sceptix-club.github.io/website-assets/council/nahla.avif",
-        quote: "My brain has too many tabs open",
-        quote2: "I put the ‘Pro’ in procrastination",
-        quote3: "Home is where the WiFi connects automatically.",
-    },
+    // {
+    //     name: "Nahla Nafeesa Adiraja",
+    //     role: "Secretary",
+    //     github_link: "https://github.com/nahla2405",
+    //     linkedin_link:
+    //         "https://www.linkedin.com/in/nahla-nafeesa-adiraja-a7487b2a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    //     image: "https://sceptix-club.github.io/website-assets/council/nahla.avif",
+    //     quote: "My brain has too many tabs open",
+    //     quote2: "I put the ‘Pro’ in procrastination",
+    //     quote3: "Home is where the WiFi connects automatically.",
+    // },
     {
         name: "Ashley Cleon Pinto",
         role: "Joint Secretary",
