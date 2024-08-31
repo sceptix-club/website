@@ -20,7 +20,7 @@ export const council: CouncilMemberType[] = [
         image: "https://sceptix-club.github.io/website-assets/council/rachan.avif",
         quote3: "Confused? Me too. But watch me pretend I know what I'm doing!",
         quote2: "I am here and I am not",
-        quote: "Life's like a chaotic game of Among Us—I may look sus, but I'm just here to mess with the imposters! ;)",
+        quote: "┐(￣ヘ￣）┌",
     },
 
     {
