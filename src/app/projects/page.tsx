@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Timeline } from "@/components/ui/timeline";
+import Link from "next/link";
 
 type TimelineEntry = {
   title: string;
@@ -13,33 +14,37 @@ const Projects = () => {
       title: "2024",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm lg:text-base font-fira_code mb-4 md:mb-8">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
-          </p>
+          <h1 className="text-neutral-800 dark:text-neutral-200 lg:text-3xl md:text-sm font-fira_sans mb-4 md:mb-8 font-extrabold"><Link href='https://htf-2-0.vercel.app/'>HackToFuture 2.0 website</Link></h1>
+          <ul className="text-neutral-800 dark:text-neutral-200 lg:text-lg md:text-sm font-fira_code mb-4 md:mb-8 font-thin">
+            <li className="mt-2">The HackToFuture 2.0 website was created for promotion and registration purposes.</li>
+            <li className="mt-2">Development began in the second week of January, with the site launching on January 23rd featuring registration functionality.</li>
+            <li className="mt-2">The website provided comprehensive information about the hackathon, facilitated team registrations, and served as a platform for frequent participant updates.</li>
+            <li className="mt-2">Throughout the registration period, the website was regularly maintained and experienced minimal downtime.</li>
+          </ul>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Image
-              src="https://assets.aceternity.com/templates/startup-1.webp"
+              src="https://sceptix-club.github.io/website-assets/projects/htf1.avif"
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-40 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <Image
-              src="https://assets.aceternity.com/templates/startup-2.webp"
+              src="https://sceptix-club.github.io/website-assets/projects/htf2.avif"
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-40 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <Image
-              src="https://assets.aceternity.com/templates/startup-3.webp"
+              src="https://sceptix-club.github.io/website-assets/projects/htf3.avif"
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-40 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <Image
-              src="https://assets.aceternity.com/templates/startup-4.webp"
+              src="https://sceptix-club.github.io/website-assets/projects/htf4.avif"
               alt="startup template"
               width={500}
               height={500}
@@ -53,39 +58,38 @@ const Projects = () => {
       title: "2023",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm lg:text-base font-fira_code mb-4 md:mb-8">
-            I usually run out of copy, but when I see content this big, I try to
-            integrate lorem ipsum.
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm lg:text-base font-fira_code mb-4 md:mb-8">
-            Lorem ipsum is for people who are too lazy to write copy. But we are
-            not. Here are some more examples of beautiful designs I built.
-          </p>
+          <h1 className="text-neutral-800 dark:text-neutral-200 lg:text-3xl md:text-sm font-fira_sans mb-4 md:mb-8 font-extrabold"><Link href='https://placement-cell-website.vercel.app/'>SJEC Placement Repository</Link></h1>
+          <ul className="text-neutral-800 dark:text-neutral-200 lg:text-lg md:text-sm font-fira_code mb-4 md:mb-8 font-thin">
+            <li className="mt-2">SJEC Placement Repository is a web application being built for The Training & Placement Cell.</li>
+            <li className="mt-2">Work commenced in mid-December and is under development.</li>
+            <li className="mt-2">The goal of this project is to streamline the recruitment process of the placement drives that take place in the campus.</li>
+            <li className="mt-2">The centralized database will allow students to easily view all the upcoming placement drives and register for the same.</li>
+          </ul>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
-              alt="hero template"
+              src="https://sceptix-club.github.io/website-assets/projects/plc1.avif"
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-40 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <Image
-              src="https://assets.aceternity.com/features-section.png"
-              alt="feature template"
+              src="https://sceptix-club.github.io/website-assets/projects/plc5.avif"
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-40 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <Image
-              src="https://assets.aceternity.com/pro/bento-grids.png"
-              alt="bento template"
+              src="https://sceptix-club.github.io/website-assets/projects/plc6.avif"
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-40 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <Image
-              src="https://assets.aceternity.com/cards.png"
-              alt="cards template"
+              src="https://sceptix-club.github.io/website-assets/projects/plc7.avif"
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-40 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
@@ -95,54 +99,42 @@ const Projects = () => {
       ),
     },
     {
-      title: "2022",
+      title: "2023",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm lg:text-base font-fira_code mb-2 md:mb-4">
-            Deployed 5 new components on Aceternity today
-          </p>
-          <div className="mb-4 md:mb-8 font-fira_sans">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm lg:text-base">
-              ✅ Card grid component
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm lg:text-base">
-              ✅ Startup template Aceternity
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm lg:text-base">
-              ✅ Random file upload lol
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm lg:text-base">
-              ✅ Himesh Reshammiya Music CD
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm lg:text-base">
-              ✅ Salman Bhai Fan Club registrations open
-            </div>
-          </div>
+          <h1 className="text-neutral-800 dark:text-neutral-200 lg:text-3xl md:text-sm font-fira_sans mb-4 md:mb-8 font-extrabold"><Link href='https://cisf-website.vercel.app/'>Tree GeoTag</Link></h1>
+          <ul className="text-neutral-800 dark:text-neutral-200 lg:text-lg md:text-sm font-fira_code mb-4 md:mb-8 font-thin">
+            <li className="mt-2">Tree GeoTag software, being developed for CISF Mangalore’s environmental initiative, consists of a web application as well as an Android application.</li>
+            <li className="mt-2">The project started off in mid-January and is prototype ready.</li>
+            <li className="mt-2">The main goal is to track a database of plants planted by CISF and provide accountability of the same to their higher officials.</li>
+            <li className="mt-2">The website features an admin dashboard for overall complete details of all the plants.</li>
+            <li className="mt-4">It also features a public portal where users can access specific plant information by scanning a QR code attached to the plant.</li>
+          </ul>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
-              alt="hero template"
+              src="https://sceptix-club.github.io/website-assets/projects/cisf1.avif"
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-40 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <Image
-              src="https://assets.aceternity.com/features-section.png"
-              alt="feature template"
+              src="https://sceptix-club.github.io/website-assets/projects/cisf2.avif"
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-40 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <Image
-              src="https://assets.aceternity.com/pro/bento-grids.png"
-              alt="bento template"
+              src="https://sceptix-club.github.io/website-assets/projects/cisf3.avif"
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-40 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
             />
             <Image
-              src="https://assets.aceternity.com/cards.png"
-              alt="cards template"
+              src="https://sceptix-club.github.io/website-assets/projects/cisf4.avif"
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-40 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"

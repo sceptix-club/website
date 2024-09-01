@@ -26,7 +26,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ["start 10%", "end 30%"],
+    offset: ["start 10%", "end 27%"],
   });
 
   const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
@@ -38,7 +38,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       ref={containerRef}
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="lg:text-5xl md:text-4xl text-4xl mb-4 text-black font-fira_sans dark:text-white max-w-4xl font-bold">
+        <h2 className="lg:text-7xl md:text-4xl text-4xl mb-4 text-black font-fira_sans dark:text-white max-w-4xl font-bold">
           Projects made by us!
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 lg:text-xl md:text-base font-fira_sans mt-8">
