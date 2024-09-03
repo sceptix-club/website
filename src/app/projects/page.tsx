@@ -55,6 +55,94 @@ const Projects = () => {
       ),
     },
     {
+      title: "2024",
+      content: (
+        <div>
+          <h1 className="text-neutral-800 dark:text-neutral-200 lg:text-3xl md:text-sm font-fira_sans mb-4 md:mb-8 font-extrabold">HTF Voulenteer App</h1>
+          <ul className="text-neutral-800 dark:text-neutral-200 lg:text-lg md:text-sm font-fira_code mb-4 md:mb-8 font-thin">
+            <li className="mt-2">The HackToFuture Volunteer app was created to manage participant registrations, track team details, and handle meal reservations.</li>
+            <li className="mt-2">It included features for counting teams, listing team names and members, and monitoring breakfast, lunch, and dinner reservations for all event stakeholders.</li>
+            <li className="mt-2">Development started in the second week of January and took approximately 3 weeks to complete.</li>
+            <li className="mt-2">The app was finalized and ready just in time for the event.</li>
+          </ul>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <Image
+              src="https://sceptix-club.github.io/website-assets/projects/app1.avif"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
+            />
+            <Image
+              src="https://sceptix-club.github.io/website-assets/projects/app2.avif"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover ml-32 h-20 sm:h-32 md:h-44 lg:h-60 w-32 shadow-lg"
+            />
+            <Image
+              src="https://sceptix-club.github.io/website-assets/projects/app3.avif"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover ml-32 h-20 sm:h-32 md:h-44 lg:h-60 w-32 shadow-lg"
+            />
+            <Image
+              src="https://sceptix-club.github.io/website-assets/projects/app4.avif"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover ml-32 h-20 sm:h-32 md:h-44 lg:h-60 w-32 shadow-lg"
+            />
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "2024",
+      content: (
+        <div>
+          <h1 className="text-neutral-800 dark:text-neutral-200 lg:text-3xl md:text-sm font-fira_sans mb-4 md:mb-8 font-extrabold">HTF Jury WebApp</h1>
+          <ul className="text-neutral-800 dark:text-neutral-200 lg:text-lg md:text-sm font-fira_code mb-4 md:mb-8 font-thin">
+            <li className="mt-2">The Jury App was made so that the judges on HackToFuture could efficiently judge and score the teams of participants. </li>
+            <li className="mt-2">The judges could leave comments, ratings and suggestions for each team specifically.</li>
+            <li className="mt-2"> The scores were automatically calculated and presented in real time as the scores were entered.</li>
+            <li className="mt-2">The Jury app allowed the entire event to be held paperless and completely digital.</li>
+          </ul>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <Image
+              src="https://sceptix-club.github.io/website-assets/projects/app1.avif"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
+            />
+            <Image
+              src="https://sceptix-club.github.io/website-assets/projects/app2.avif"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover ml-32 h-20 sm:h-32 md:h-44 lg:h-60 w-32 shadow-lg"
+            />
+            <Image
+              src="https://sceptix-club.github.io/website-assets/projects/app3.avif"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover ml-32 h-20 sm:h-32 md:h-44 lg:h-60 w-32 shadow-lg"
+            />
+            <Image
+              src="https://sceptix-club.github.io/website-assets/projects/app4.avif"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover ml-32 h-20 sm:h-32 md:h-44 lg:h-60 w-32 shadow-lg"
+            />
+          </div>
+        </div>
+      ),
+    },
+    {
       title: "2023",
       content: (
         <div>
