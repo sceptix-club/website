@@ -68,7 +68,7 @@ const Projects = () => {
             ),
         },
         {
-            title: "HTF Voulenteer App",
+            title: "HTF Volunteer App",
             content: (
                 <div>
                     <h1 className="text-neutral-800 dark:text-neutral-200 lg:text-3xl md:text-sm font-fira_sans mb-4 md:mb-8 font-extrabold"></h1>
