@@ -111,28 +111,28 @@ const Projects = () => {
           </ul>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Image
-              src="https://sceptix-club.github.io/website-assets/projects/app1.avif"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
-            />
-            <Image
-              src="https://sceptix-club.github.io/website-assets/projects/app2.avif"
+              src="https://sceptix-club.github.io/website-assets/projects/app11.avif"
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover ml-32 h-20 sm:h-32 md:h-44 lg:h-60 w-32 shadow-lg"
             />
             <Image
-              src="https://sceptix-club.github.io/website-assets/projects/app3.avif"
+              src="https://sceptix-club.github.io/website-assets/projects/app12.avif"
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover ml-32 h-20 sm:h-32 md:h-44 lg:h-60 w-32 shadow-lg"
             />
             <Image
-              src="https://sceptix-club.github.io/website-assets/projects/app4.avif"
+              src="https://sceptix-club.github.io/website-assets/projects/app13.avif"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover ml-32 h-20 sm:h-32 md:h-44 lg:h-60 w-32 shadow-lg"
+            />
+            <Image
+              src="https://sceptix-club.github.io/website-assets/projects/app14.avif"
               alt="startup template"
               width={500}
               height={500}
