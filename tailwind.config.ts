@@ -1,44 +1,54 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: [
+    darkMode: ["class"],
+    content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      animation: {
-        grid: "grid 15s linear infinite",
-        ripple: "ripple 3400ms ease infinite",
-      },
-      keyframes: {
-        grid: {
-          "0%": { transform: "translateY(-50%)" },
-          "100%": { transform: "translateY(0)" },
-        },
-        ripple: {
-          "0%, 100%": {
-            transform: "translate(-50%, -50%) scale(1)",
-          },
-          "50%": {
-            transform: "translate(-50%, -50%) scale(0.9)",
-          },
-        },
-      },
-      fontFamily: {
-        jetbrains: ["JetBrains Mono", "monospace"],
-        inter: ["Inter", "sans-serif"],
-        zilla: ["Zilla Slab", "serif"],
-        fira_code: ["Fira Code", "monospace"],
-        fira_sans: ["Fira Sans", "sans-serif"],
-      },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
-    },
+  	extend: {
+  		animation: {
+  			grid: 'grid 15s linear infinite',
+  			ripple: 'ripple 3400ms ease infinite'
+  		},
+  		keyframes: {
+  			grid: {
+  				'0%': {
+  					transform: 'translateY(-50%)'
+  				},
+  				'100%': {
+  					transform: 'translateY(0)'
+  				}
+  			},
+  			ripple: {
+  				'0%, 100%': {
+  					transform: 'translate(-50%, -50%) scale(1)'
+  				},
+  				'50%': {
+  					transform: 'translate(-50%, -50%) scale(0.9)'
+  				}
+  			}
+  		},
+  		fontFamily: {
+  			jetbrains: ["JetBrains Mono", "monospace"],
+  			inter: ["Inter", "sans-serif"],
+  			zilla: ["Zilla Slab", "serif"],
+  			fira_code: ["Fira Code", "monospace"],
+  			fira_sans: ["Fira Sans", "sans-serif"]
+  		},
+  		backgroundImage: {
+  			'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+  			'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
+  		},
+  		borderRadius: {
+  			lg: 'var(--radius)',
+  			md: 'calc(var(--radius) - 2px)',
+  			sm: 'calc(var(--radius) - 4px)'
+  		},
+  		colors: {}
+  	}
   },
   plugins: [
     addVariablesForColors,
@@ -76,7 +86,8 @@ const config: Config = {
         { values: flattenColorPalette(theme("backgroundColor")), type: "color" }
       );
     },
-  ],
+      require("tailwindcss-animate")
+],
 };
 
 export default config;
