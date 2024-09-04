@@ -16,7 +16,7 @@ export default async function DynamicImage({
     const { base64, img } = await getImage(url);
 
     return (
-        <div className={cn("relative", containerClass)}>
+        <div className={cn("relative")}>
             <Image
                 {...img}
                 width={800}
@@ -24,7 +24,7 @@ export default async function DynamicImage({
                 alt={alt || ""}
                 placeholder="blur"
                 blurDataURL={base64}
-                className="rounded-lg"
+                className={cn("rounded-lg", containerClass)}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
         </div>
