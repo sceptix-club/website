@@ -3,8 +3,9 @@ import { MemberCard } from "@/components/MemberCard";
 import { MemberType } from "@/types";
 import React from "react";
 
-const Page = async () => {
+const MembersPage = async () => {
     const memberList: MemberType[] = await getMembers();
+
     const renderMembers = (designationFilter: string) => (
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 mt-1">
             {memberList
@@ -46,4 +47,4 @@ const Page = async () => {
         </div>
     );
 };
-export default Page;
+export default MembersPage;
