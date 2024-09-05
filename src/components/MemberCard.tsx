@@ -5,7 +5,7 @@ import Link from "next/link";
 import { MemberType } from "@/types";
 import DynamicImage from "./DynamicImage/dynamic-image";
 
-export function MemberCard({
+export async function MemberCard({
     Name,
     GithubUrl,
     LinkedinUrl,
