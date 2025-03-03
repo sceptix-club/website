@@ -11,9 +11,6 @@ import { ScrollTextReveal } from "@/components/ScrollTextReveal";
 import Image from "next/image";
 
 export default function Home() {
-  const handleClick = () => {
-    console.log("Referrer:", document.referrer || "No Referrer");
-  };
   return (
     <>
       <div className="h-screen flex flex-col justify-center items-center md:mt-[-80px] mt-[-110px] ">
@@ -37,12 +34,6 @@ export default function Home() {
           Explore more
         </h1>
         {/* Button to log referrer */}
-        <button
-          onClick={handleClick}
-          className="mt-6 px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-700 transition"
-        >
-          Check Referrer
-        </button>
         <RevealLinks />
       </div>
     </>
