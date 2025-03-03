@@ -1,3 +1,5 @@
+"use client"; // Ensure this runs on the client side
+
 // import { BoxRevealHero } from "@/components/BoxRevealHero";
 import { DomainDock } from "@/components/DomainDock";
 import DomainMobile from "@/components/DomainMobile";
@@ -9,6 +11,9 @@ import { ScrollTextReveal } from "@/components/ScrollTextReveal";
 import Image from "next/image";
 
 export default function Home() {
+  const handleClick = () => {
+    console.log("Referrer:", document.referrer || "No Referrer");
+  };
   return (
     <>
       <div className="h-screen flex flex-col justify-center items-center md:mt-[-80px] mt-[-110px] ">
@@ -31,6 +36,13 @@ export default function Home() {
         <h1 className="pointer-events-none w-full whitespace-pre-wrap bg-gradient-to-b  bg-clip-text text-center md:text-7xl lg:text-9xl text-5xl font-black font-fira_sans leading-none text-transparent from-white to-slate-900/10 pb-12 ">
           Explore more
         </h1>
+        {/* Button to log referrer */}
+        <button
+          onClick={handleClick}
+          className="mt-6 px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-700 transition"
+        >
+          Check Referrer
+        </button>
         <RevealLinks />
       </div>
     </>
